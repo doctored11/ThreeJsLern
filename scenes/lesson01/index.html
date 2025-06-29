@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Урок 1</title>
-  <style>canvas { display: block; }</style>
-</head>
-<body>
-  <script type="module" src="./scene.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Урок 1</title>
+    <style>
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <a rel="stylesheet" href="https://threejs.org/manual/#en/installation">
+      установка</a
+    >
+    <br>
+    <a href="https://threejs.org/manual/#en/drawing-lines">
+      как провести линию</a
+    >
+
+    <h3>Заметки</h3>
+    <p>
+      Можно сохранить размер холста, но рендерить в более низком качестве.
+      Просто передать третий параметр у setSize как false, тогда он как бы будет
+      рисовать на старый размер холста а стилями уже можно растянуть канвас на
+      100% - как я понял. renderer.setSize( window.innerWidth/2,
+      window.innerHeight/2, false );
+    </p>
+    <p>
+      есть перечень сторонних
+      <a href="https://threejs.org/manual/#en/libraries-and-plugins"
+        >библиотек</a
+      >
+      которые хорошо работают с three, в том числе Particle Systems и Game AI
+    </p>
+
+    <script type="module" src="./scene.js"></script>
+  </body>
 </html>
