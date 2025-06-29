@@ -1,0 +1,1 @@
+> npm run new lesson02 - шаблон 
