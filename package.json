@@ -10,6 +10,7 @@
     "new": "node scripts/new-lesson.js"
   },
   "devDependencies": {
+    "lil-gui": "^0.20.0",
     "vite": "^7.0.0"
   },
   "dependencies": {
