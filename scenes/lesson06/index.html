@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>lesson 💩</title>
+    <style>
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <a rel="stylesheet" href="https://threejs.org/manual/#ru/cameras"> камера</a>
+    <br />
+  
+
+    
+
+    <canvas id="c"></canvas>
+    <div class="split">
+      <div id="view1" tabindex="1"></div>
+      <div id="view2" tabindex="2"></div>
+    </div>
+    <style>
+      .split {
+        position: absolute;
+        left: 0;
+        top: 200px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+      }
+      .split > div {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+
+    <script type="module" src="./scene.js"></script>
+  </body>
+</html>
