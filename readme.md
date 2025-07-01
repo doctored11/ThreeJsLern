@@ -11,8 +11,7 @@ https://threejs.org/manual/#en/installation
 5 -материалы и текстуры ✅ [⚠️-много тонкостей, посмотреть документацию еще раз]
 6- камера ✅
  и тени✅
-  и туман
-
+ 
 д3:
 7 -render targets
 8 - custom buffer geom
