@@ -1,21 +1,20 @@
-> npm run new lesson02 - шаблон 
+> npm run new lesson02 - шаблон
 
-- иду просто по руководству [документации|мануалу] three.js 
+- иду просто по руководству [документации|мануалу] three.js
 без react, возможно с css библиотеками мб позде с ts -но не точно
 
-
-https://threejs.org/manual/#en/installation
+<https://threejs.org/manual/#en/installation>
 
 план на день 2 :
 урок 4 - граф сцены (Scene Graph) ✅
 5 -материалы и текстуры ✅ [⚠️-много тонкостей, посмотреть документацию еще раз]
 6- камера ✅
  и тени✅
- 
+
 д3:
-7 -render targets
-8 - custom buffer geom
-9 - render on demand
+7 -render targets ✅
+8 - custom buffer geom ⚠️ [прочитал но не осознал]
+9 - render on demand ✅
 
 д4:
 пробежаться по отладке на js (в советах)
@@ -47,7 +46,7 @@ https://threejs.org/manual/#en/installation
 21- Billboards
 
 д13:
-22  - Freeing 
+22  - Freeing
 
 д14:
 23 - воксельная графика
@@ -60,7 +59,7 @@ https://threejs.org/manual/#en/installation
 25 - разобраться с docs -> animations в частности с Action Clip Mixer PropertyBinding
 
 д20:
-26 - docs-> массив камер 
+26 - docs-> массив камер
 27 - свечение объектов и моргание
 
 д21:
@@ -69,12 +68,11 @@ https://threejs.org/manual/#en/installation
 д22-д23:
 29 - перетаскивание предметов по зажатой лкм
 
-
-
 ____до 31.07.25____
 д 23-д30
-отдельный проеккт 
-- просто маленькая игра понг ~https://iwantitall.merci-michel.com/ 
-без бонусов - с уровнями которые случайно генерируются (игра просто на рекорд по кол-ву уровней) упор на визуал [но работать должно)] 
+отдельный проеккт
+
+- просто маленькая игра понг ~<https://iwantitall.merci-michel.com/>
+без бонусов - с уровнями которые случайно генерируются (игра просто на рекорд по кол-ву уровней) упор на визуал [но работать должно)]
 
 ____до 15.08.25____
