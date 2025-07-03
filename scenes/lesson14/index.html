@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🖼️🖼️ lesson 14</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      p {
+        width: 60%;
+      }
+
+      #c {
+        /* position: fixed; */
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: -1;
+      }
+      .diagram {
+        display: inline-block;
+        width: 15em;
+        height: 9em;
+        /* border: 1px solid black; */
+      }
+      .left {
+        float: left;
+        margin-right: 0.25em;
+      }
+      .right {
+        float: right;
+        margin-left: 0.25em;
+      }
+    </style>
+  </head>
+  <body>
+    <a rel="stylesheet" href="https://threejs.org/manual/#en/multiple-scenes"> Мульти сцена</a>
+    <br />
+   
+
+    <h3>Заметки</h3>
+    <p>
+      канвас - подложка. передаем координаты фреймов(span и тд),создаем
+      отдельные сцены, проверяем виден ли он во viewPort и если да то рисуем с
+      помощью renderer.setScissor(--);
+      renderer.setViewport(--);renderer.render(scene, camera);
+    </p>
+    <p>
+      Еще лучьше использовать data атрибуты вместо id и использовать объеткы
+      (или еще что) как mapб, где ключ это имя сцены(например по data атрибуту)
+      а значение функция с настройками сцены
+    </p>
+    <p>
+      Для управления объектами используется TrackballControls - но он вращает
+      камеру, поэтому свет прикреплен за камерой
+    </p>
+    <p>Ромб - низкополигональная сфера</p>
+    <br /><br /><br />
+    <canvas id="c"></canvas>
+    <p>
+      <span id="box" class="diagram left"></span>
+      I love boxes. Presents come in boxes. When I find a new box I'm always
+      excited to find out what's inside. Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. Labore sit laudantium, molestias non tenetur corporis,
+      quos praesentium tempora, fugit quidem iure debitis nulla nihil
+      perspiciatis nesciunt laboriosam dicta earum nisi. Quo velit maxime
+      ratione, soluta tenetur aperiam vitae aut a provident cum sint doloremque
+      reprehenderit nisi non illum tempora porro quisquam iure cumque enim sed
+      ipsa odio quibusdam! Cum, nostrum. Deserunt modi deleniti numquam et a!
+      Voluptates atque consequatur id minus? Accusantium quia nobis sint
+      perspiciatis enim! Numquam accusamus perspiciatis quibusdam ipsam ea
+      dolores nemo expedita, quasi ab sunt dolorum? Sed laborum neque voluptate
+      vero, similique tempora delectus eum, vel cum ab maiores beatae. Est
+      consectetur iusto consequatur enim, ut temporibus nulla deserunt modi
+      exercitationem tempore mollitia sint vero sunt. Cumque non, pariatur
+      tempora vero quos, dicta reiciendis consectetur, veniam mollitia
+      distinctio perspiciatis sequi. Dolores explicabo, reprehenderit odit quos
+      voluptates iste rem nobis ad placeat quam, voluptatibus minus ducimus
+      rerum?
+    </p>
+    <p>
+      <span id="pyramid" class="diagram right"></span>
+      When I was a kid I dreamed of going on an expedition inside a pyramid and
+      finding a undiscovered tomb full of mummies and treasure. Lorem ipsum,
+      dolor sit amet consectetur adipisicing elit. Eius, obcaecati, excepturi
+      distinctio perferendis cum quibusdam aut rerum cupiditate sint, corrupti
+      facilis dolorem ipsam quod ea dolor repudiandae porro reprehenderit
+      praesentium?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
+      mollitia fugit dolore quas aut consequatur possimus corrupti
+      exercitationem animi quam, qui maxime. Reprehenderit officia asperiores
+      quia dolor ducimus at quibusdam. Tempore eligendi minima dolore qui, sed
+      voluptas nulla natus rem illum neque saepe eos at corrupti nisi, error
+      nesciunt quis fuga. Molestias cupiditate dignissimos repellat nulla quas
+      necessitatibus laudantium sint! Enim voluptates doloremque voluptas quia
+      nisi illo quisquam officiis iste dignissimos aliquid ratione ab, corporis
+      at natus quasi repellat dolorem. Ex, reprehenderit quia. Eius accusamus,
+      ipsam ab illum aliquid esse? Eaque tempora commodi unde nulla deserunt
+      quasi ipsum libero ea voluptatibus, obcaecati sit quia quis odio
+      voluptates ducimus in quos facilis aspernatur eligendi nostrum molestias
+      veniam sed ab soluta. Aspernatur? Consequuntur sed nemo eum aperiam
+      quibusdam expedita corporis doloribus unde quasi officiis, deserunt
+      repudiandae mollitia aliquid ipsa voluptas iure reprehenderit velit
+      accusantium voluptates maiores. Laboriosam amet harum porro eligendi
+      similique. Nihil, magnam debitis, doloribus quod assumenda aut fugit
+      voluptate sunt natus, porro maxime beatae iste vel deleniti maiores. Quo
+      sequi nihil deleniti provident! Voluptatibus suscipit illo ratione tenetur
+      ab animi. Impedit sequi itaque tenetur maiores atque suscipit iste
+      cupiditate. Repudiandae magni alias quia, consectetur vero perspiciatis
+      doloremque voluptas, iste adipisci quod enim dolorem possimus similique
+      vitae mollitia. Voluptatibus, hic illum. Assumenda, delectus, dolores qui
+      facilis rerum voluptate, quas tempore cum quasi odit ad illo ipsam sint.
+      Corrupti facere, provident saepe quasi similique vero id voluptate tempora
+      debitis dolor dicta soluta. Doloribus, corrupti. Voluptas et minima
+      deserunt ipsa nulla officia recusandae ab illum porro voluptate
+      reprehenderit iste necessitatibus, quia dolores eos. Dolore explicabo vero
+      quidem, molestiae distinctio eligendi dolorem ut at.
+    </p>
+
+    <script type="module" src="./scene.js"></script>
+  </body>
+</html>
