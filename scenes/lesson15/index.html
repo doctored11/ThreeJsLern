@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🎯 lesson 15</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0;
+      }
+
+      canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      h3,
+      p,
+      a {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a rel="stylesheet" href="https://threejs.org/manual/#en/picking"> Pick объектов мышью - рейкаст (cpu/gpu)</a>
+    <br />
+   
+
+    <h3>Заметки</h3>
+    <p>Вычисление позиции курсора мыши - перевод в глобальные координаты, и дальше обычный рейкаст. Правда нагрузка на CPU + не поддерживает прозрачность и "геометрию шейдеров". Пример с GPU есть - но я не повторял, он якобы производительней, но точно поддерживает pick по материалам.</p>
+    <canvas id="c"></canvas>
+
+    <script type="module" src="./scene.js"></script>
+  </body>
+</html>
