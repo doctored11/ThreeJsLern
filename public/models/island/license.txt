@@ -1,0 +1,11 @@
+Model Information:
+* title:	Island - Low poly
+* source:	https://sketchfab.com/3d-models/island-low-poly-f06bbe6bfcd844bfb8e98b58dd9270f9
+* author:	Leonardo Gomez (https://sketchfab.com/LeonardoGomez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Island - Low poly" (https://sketchfab.com/3d-models/island-low-poly-f06bbe6bfcd844bfb8e98b58dd9270f9) by Leonardo Gomez (https://sketchfab.com/LeonardoGomez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
