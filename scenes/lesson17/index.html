@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>☀️ lesson 17 </title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0;
+      }
+
+      canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      h3,
+      p,
+      a {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a rel="stylesheet" href="https://threejs.org/manual/#en/shadertoy"> шейдеры - подключение</a>
+    <br />
+    <a
+      href="https://www.youtube.com/watch?v=oKbCaj1J6EI&list=PLGzTvRWBenJxxTpBjB3xCcY9Cg7RnEPtk"
+    >
+      видеогайд - введение в шейдеры</a
+    >
+
+    <h3>Заметки</h3>
+    <p>Шейдеры можно переносить в стандартные материалы, чтобы не писать свет. тут делается через подмену фрагментов кода (обычным replace)</p>
+    <canvas id="c"></canvas>
+
+    <script type="module" src="./scene.js"></script>
+  </body>
+</html>
