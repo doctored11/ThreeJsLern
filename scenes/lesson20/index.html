@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>💩 lesson 20 </title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0;
+      }
+
+      canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      h3,
+      p,
+      a {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a rel="stylesheet" href="https://threejs.org/manual/#en/canvas-textures"> Канвас как динамическая текстура</a>
+    <br />
+    
+
+    <h3>Заметки</h3>
+    <p> нельзя дважды брать разные контексты у одного и того же canvas</p>
+    <p> какой то кал - используется 2 канваса, хотя это осуждалось в прошлых примерах - (з7 и з14)</p>
+    <canvas id="c"></canvas>
+
+    <script type="module" src="./scene.js"></script>
+  </body>
+</html>
